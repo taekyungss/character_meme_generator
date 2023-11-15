@@ -54,6 +54,21 @@ accelerate launch train_dreambooth_lora.py \
 --push_to_hub
 ```
 
+### Inpainting Anything
+This model can make background of the character images
+After crate a characeter shape image by train_dreambooth_lora, you put the image into this "Inpainting Anything" model. we choose "Replace Anything" task in "Inpaint Anything".
+
+inpainting Anything model's architecture
+<img src="./images/inpaintanything_architecture.png">
+
+First, installation
+Requires  ```py python>=3.8  ```
+
+Download the model checkpoints provided in "Segment Anything"
+(e.g. sam_vit_h_4b88939.pth) and put them into ```./pretrained_models ```
+
+
+
 ## Inference
 
 
