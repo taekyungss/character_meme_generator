@@ -55,8 +55,7 @@ accelerate launch train_dreambooth_lora.py \
 ```
 
 ### Inpainting Anything
-This model can make background of the character images
-After crate a characeter shape image by train_dreambooth_lora, you put the image into this "Inpainting Anything" model. we choose "Replace Anything" task in "Inpaint Anything".
+This model can create a background for character images. After generating a character-shaped image using the "train_dreambooth_lora" model, you can input the image into the "Inpainting Anything" model. Choose the "Replace Anything" task in "Inpaint Anything."
 
 #### inpainting Anything model's architecture
 <img src="./images/inpaintanything_architecture.png">
