@@ -60,9 +60,6 @@ This model can create a background for character images. After generating a char
 #### Inpaint Anything model's architecture
 <img src="./images/inpaintanything_architecture.png">
 
-First, installation
-Requires  ```python>=3.8  ```
-
 Download the model checkpoints provided in "Segment Anything"
 (e.g. sam_vit_h_4b88939.pth) and put them into ```./pretrained_models ```
 
